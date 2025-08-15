@@ -9,6 +9,20 @@
     background-color: #F5F8FF;
 }
 
+.font-orange{
+  color: #E95A08;
+}
+
+.font-grey{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.button{
+  background-color: #E95A08;
+  color: white;
+  padding: 19px 80px;
+}
+
 
 @import "tailwindcss"
 
