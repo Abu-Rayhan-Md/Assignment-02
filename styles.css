@@ -23,7 +23,13 @@
   padding: 19px 80px;
 }
 
+.shadow{
+  filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100%;
+}
+
+.animate-spin{
+  animation: spin 10s linear infinite;
+}
 
 @import "tailwindcss"
-
-
