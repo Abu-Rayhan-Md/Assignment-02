@@ -22,6 +22,9 @@ align-items: center;
   .alwaysfresh{
     margin-top: 0px;
   }
+  .emailsub{
+    width: 578px;
+  }
 }
     </style>
 </head>
@@ -206,10 +209,16 @@ align-items: center;
         </section>
 
         <!-- Join the colorful bunch -->
-        <section>
+        <section class="relative w-[1440px] h-[533px] bg-[url(/assets/news-letter-bg.png)] emailsub mt-28 items-center m-auto">
+            <div class="relative flex flex-col items-center justify-center h-full px-4 text-center text-white">
+            <h2 class="notoserif text-4xl font-bold mb-6">Join the colorful Bunch</h2>
+            <form class="flex w-full max-w-xl">
+            <input type="email" placeholder="Write email" class="flex-1 px-4 py-3 text-gray-800 bg-amber-50">
+            <button type="submit" class="bg-orange-500 hover:bg-green-500 text-white font-semibold px-6 py-3 ">Subscribe</button>
+            </form>
+            </div>
+    </section>
 
-        </section>
-        
     </main>
 
 
