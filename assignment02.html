@@ -25,6 +25,10 @@ align-items: center;
   .emailsub{
     width: 578px;
   }
+  .footer{
+    row-gap: 15px;
+    grid-template-columns: repeat(1, 1fr)
+  }
 }
     </style>
 </head>
@@ -217,14 +221,40 @@ align-items: center;
             <button type="submit" class="bg-orange-500 hover:bg-green-500 text-white font-semibold px-6 py-3 ">Subscribe</button>
             </form>
             </div>
-    </section>
-
+        </section>
     </main>
 
-
+    <!-- Footer -->
     <footer>
+        <section class="grid grid-cols-4 m-auto w-[1120px] h-[270px] mt-12 justify-between footer border-b-blue-600 gap-16">
+            <div>
+                <img src="assets/logo.png" alt="">
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+            </div>
 
+            <div class="list-none w-[85px] h-[248px] ">
+                <li class="mb-5">Home</li>
+                <li class="mb-5">About Us</li>
+                <li class="mb-5">Blog</li>
+                <li class="mb-5">FAQ</li>
+                <li class="mb-5">Contact Us</li>
+            </div>
 
+            <div class="list-none justify-between">
+                <li class="mb-5">Features</li>
+                <li class="mb-5">Pricing</li>
+                <li class="mb-5">Privacy Policy</li>
+                <li class="mb-5">Terms of Service</li>
+                <li class="mb-5">Help Center</li>
+            </div>
+
+            <div class="flex w-[216px] h-[36px] justify-between">
+                <img class="mb-2" src="assets/icon-linkedin.png" alt="linkedin">
+                <img class="mb-2" src="assets/icon-twitter.png" alt="twitter">
+                <img class="mb-2" src="assets/icon-facebook.png" alt="facebook">
+                <img class="mb-2" src="assets/icon-youtube.png" alt="youtube">
+            </div>
+        </section>
     </footer>
     
 </body>
