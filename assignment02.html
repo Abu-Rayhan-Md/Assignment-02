@@ -29,6 +29,9 @@ align-items: center;
     row-gap: 15px;
     grid-template-columns: repeat(1, 1fr)
   }
+  .fres1{
+    padding-left: 15px;
+  }
 }
     </style>
 </head>
@@ -36,7 +39,8 @@ align-items: center;
 
     <Header>
         <!-- Navbar -->
-        <nav class=" max-w-[1140px] h-18 flex m-auto justify-between mx-auto border-amber-800 border-2 items-center mt-5">
+        <nav class=" max-w-[1140px] h-18 flex m-auto justify-between mx-auto
+        items-center mt-5">
             <div class=" flex">
             <img class="w-auto h-16" src="assets/logo.png" alt="logo">
         </div>
@@ -55,7 +59,7 @@ align-items: center;
     <main>
 
         <!-- ALWAYS FRESH FLOWERS -->
-        <section class="flex m-auto max-w-[1140px] mx-auto border-2 border-amber-600 justify-between res2">
+        <section class="flex m-auto max-w-[1140px] mx-auto justify-between res2">
             <div class="pt-[135px]">
             <h1 class="notoserif font-bold text-[65px]">ALWAYS <span class="font-orange">FRESH</span><BR><span class="font-orange">FLOWERS</span></BR></h1>
             <P class="font-grey text-[22px]">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </P>
@@ -64,7 +68,7 @@ align-items: center;
         </section>
 
             <!-- Our Plants -->
-        <section class="mt-[120px] border-2 border-b-blue-800 m-auto max-w-[1140px]">
+        <section class="mt-[120px] m-auto max-w-[1140px]">
             <div>
                 <h1 class="notoserif font-bold text-[50px] text-center">Our <span class="font-orange">Plants</span></h1>
                 <p class="font-grey text-[22px] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -73,7 +77,7 @@ align-items: center;
 
         <!-- Cards -->
 
-        <section class="mt-[50px] border-2 border-b-blue-800 m-auto max-w-[1140px] grid grid-cols-4 gap-5 res1 items-center">
+        <section class="mt-[50px] m-auto max-w-[1140px] grid grid-cols-4 gap-5 res1 items-center">
             <div>
                 <img src="assets/sample-flower-image.png" alt="sample-flower-image">
                 <div>
@@ -149,7 +153,7 @@ align-items: center;
 
         <!-- Trusted seller -->
 
-        <section class=" mt-[210px] border-2 border-b-blue-800 m-auto max-w-[1140px] gap-[4vw] relative flex res2">
+        <section class=" mt-[210px] m-auto max-w-[1140px] gap-[4vw] relative flex res2">
 
             <div>
                 <img src="assets/flower-store.png" alt="flower-store">
@@ -174,7 +178,7 @@ align-items: center;
 
         <!-- Latest Deals -->
 
-        <section class="mt-[120px] border-2 border-b-blue-800 m-auto max-w-full">
+        <section class="mt-[120px] m-auto max-w-full">
             <div>
                 <h1 class="notoserif font-bold text-[50px] text-center"><span class="font-orange">Latest</span> Deals</h1>
                 <p class="font-grey text-[22px] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -183,7 +187,7 @@ align-items: center;
         </section>
 
         <!-- image card -->
-        <section class="mt-[100px] border-2 border-b-blue-800 m-auto max-w-[1140px]">
+        <section class="mt-[100px] m-auto max-w-[1140px]">
             <div class="grid grid-cols-1 lg:grid-cols-[367px_1fr] gap-6">
             <div class="flex flex-col">
                 <div class="relative w-auto h-auto rounded-[14px] overflow-hidden shadow-lg mb-6">
@@ -225,14 +229,14 @@ align-items: center;
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="fres1">
         <section class="grid grid-cols-4 m-auto w-[1120px] h-[270px] mt-12 justify-between footer border-b-blue-600 gap-16">
             <div>
-                <img src="assets/logo.png" alt="">
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+                <img class="pb-4" src="assets/logo.png" alt="">
+                <p class="font-grey">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
             </div>
 
-            <div class="list-none w-[85px] h-[248px] ">
+            <div class="list-none w-[85px] h-[248px] font-grey">
                 <li class="mb-5">Home</li>
                 <li class="mb-5">About Us</li>
                 <li class="mb-5">Blog</li>
@@ -240,7 +244,7 @@ align-items: center;
                 <li class="mb-5">Contact Us</li>
             </div>
 
-            <div class="list-none justify-between">
+            <div class="list-none justify-between font-grey">
                 <li class="mb-5">Features</li>
                 <li class="mb-5">Pricing</li>
                 <li class="mb-5">Privacy Policy</li>
